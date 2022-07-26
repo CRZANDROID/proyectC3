@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+  header .imagen-logo{
+    width: 11.6%;
+    display: flex;
+    flex-direction: row;
+  }
+    header .imagen-logo h2{
+      margin: 30px 20px 0px 0px;
+      color: #fff;
+      font-size: 22px;
+    }
+
+  header img{
+    margin: 20px 0px 0px 20px;
+  }
+ header{
+   background: rgba(33, 34, 44, 1);
+   display: flex;
+   flex-direction: row;
+ }
+ header .encabezado h2{
+   margin: 30px 20px 0px 20px;
+   color: #fff;
+   font-size: 22px;
+ }
+ .main {
+   display: flex;
+   flex-direction: row;
+   height: 1204px;
+ }
+
+.main .menu-box .menu a{
+  flex-direction: column;
+  margin: 0px 0px 0px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.main .menu-box .menu a:hover{
+  flex-direction: column;
+  margin: 0px 0px 0px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+    text-align: center;
+}
+
+.main .menu-box .menu  img{
+ width: 24px;
+ height: 24px;
+}
+.main .menu-box .menu div{
+  display: flex;
+  flex-direction: row;
+  margin: 20px
+}
+.main .menu-box{
+  background: rgba(33, 34, 44, 1);
+  padding-top: 20px;
+  height: 100%;
+  width: 13%;
+
+}
+.main .main-boxs{
+  background: rgba(28, 28, 40, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.main .main-boxs .boxs-derecha{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 70%
+}
+.main .main-boxs .box-abajo{
+    margin: 60px 30px 0px 30px;
+    height: 28%;
+    width: 100%;
+}
+.main .main-boxs .box-abajo .box-refacciones{
+  background: rgba(33, 34, 44, 1);
+    width: 97%;
+    border-radius: 15px;
+    height: 100%;
+}
+.main .main-boxs .boxs-top{
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+}
+.main .main-boxs .boxs-top .box1{
+  background: rgba(33, 34, 44, 1);
+  margin: 30px 0px 30px 30px;
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+}
+.main .main-boxs .boxs-top .box1 .encabezado-box{
+  display: flex;
+  flex-direction: row;
+}
+.main .main-boxs .boxs-top .box1 .encabezado-box a{
+    color: rgba(54, 100, 198, 1);
+    font-size: 12px;
+    margin-top: 5%;
+    text-decoration: none;
+
+}
+.main .main-boxs .boxs-top .box1 .encabezado-box h3{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda{
+  height: 100%;
+  width: 27%;
+}
+.main .main-boxs .boxs-izquierda .box-calendario{
+  background: rgba(33, 34, 44, 1);
+  margin: 30px;
+  margin-left: 30px;
+  height: 40%;
+  border-radius: 15px;
+  width: 100%;
+}
+.main .main-boxs .box-abajo .box-refacciones h3{
+  color: #fff;
+  font-size: 18px;
+  padding-top: 3%;
+  margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda .box-calendario h3{
+  color: #fff;
+  font-size: 18px;
+  margin-top: 5%;
+  padding-top: 6%;
+  margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda .box-apuntes h3{
+  color: #fff;
+  font-size: 18px;
+  margin-top: 5%;
+  padding-top: 6%;
+  margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda .box-apuntes{
+  background: rgba(33, 34, 44, 1);
+  margin: 30px;
+  margin-left: -150px;
+  height: 48%;
+  border-radius: 15px;
+}
+
+table, th, td {
+	border: 0px solid  #7A7A7A;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+  padding-bottom: 3%;
+}
+
+th, td {
+	padding:10px 20px;
+}
+td {
+  padding-left: 5%;
+  color: #7A7A7A;
+
+}
+th {
+	color: #7A7A7A;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+.formulario {
+	width: 90%;
+	margin: 1% auto;
+	padding: 20px;
+	border-radius: 5px;
+  height: 90%;
+}
+
+.formulario input {
+	display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+	width: 90%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border:1px solid #226fc1;
+	color: #fff;
+	font-size: 16px;
+	font-family: Arial;
+	background: rgba(33, 34, 44, 1);
+}
+
+.formulario textarea {
+	min-height: ;
+	max-height: ;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus {
+	color: #fff;
+	border:2px solid #4fb560;
+}
+
+.formulario input[type="button"] {
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px;
+	border:1px solid #4fb560;
+	color: #4fb560;
+	background: none;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 16px;
+
+}
+
+.formulario input[type="button"]:hover {
+	background: #4fb560;
+	color: #fff;
+}
+.encabezado-box .opciones {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  margin-left: 60%;
+}
+.encabezado-box .opciones a{
+padding: 2%;
+}
+.main .main-boxs .encabezado-box a{
+    color: rgba(54, 100, 198, 1);
+    font-size: 12px;
+    text-decoration: none;
+
+}
+.box-refacciones .encabezado-box .opciones {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  margin-left: 77%;
+}

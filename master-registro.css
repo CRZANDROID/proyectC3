@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(33, 34, 44, 1);
+  background-size: cover;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 620px;
+  background: rgba(54, 100, 198, 1);
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 10px;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+}
+
+.login-box input[type="button"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: rgba(28, 28, 40, 1);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.login-box input[type="button"]:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+}
+
+.login-box .casos a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box .casos a:hover {
+  color: #000;
+}
+.login-box .botones .boton-facebook{
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  background-image: radial-gradient(circle at 4.55% -4.17%, #ffffff 0, #ffffff 16.67%, #ffffff 33.33%, #ffffff 50%, #f2e9ec 66.67%, #e6d7dd 83.33%, #ddcad3 100%);
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+.login-box .botones .boton-facebook p{
+margin: 0px;
+margin-left: 10px;
+font-size: 12px;
+}
+.login-box .botones .boton-google{
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  background-image: radial-gradient(circle at 4.55% -4.17%, #ffffff 0, #ffffff 16.67%, #ffffff 33.33%, #ffffff 50%, #f2e9ec 66.67%, #e6d7dd 83.33%, #ddcad3 100%);
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+.login-box .botones .boton-google p{
+margin: 0px;
+margin-left: 10px;
+font-size: 12px;
+
+
+}
+.login-box .botones .boton-google a{
+text-decoration: none;
+color: #000;
+display: flex;
+flex-direction: row;
+}
+.login-box .botones .boton-facebook a{
+text-decoration: none;
+color: #000;
+display: flex;
+flex-direction: row;
+}
+.login-box .botones .boton-facebook:hover{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+background-image: radial-gradient(circle at 4.55% -4.17%, #bbc8ff 0, #678dff 50%, #0058d3 100%);
+  padding: 10px;
+  border-radius: 15px;
+}
+.login-box .botones .boton-google:hover{
+  display: flex;
+  flex-direction: row;
+  margin: 25px 15px;
+  background-image: radial-gradient(circle at 4.55% -4.17%, #ffffe6 0, #fff4c7 25%, #f3d4a1 50%, #deb57d 75%, #cf9c63 100%);
+  padding: 10px;
+  border-radius: 15px;
+}

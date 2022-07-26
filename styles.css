@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  font-family: "Open Sans";
+  font-size: 16px; }
+  header .imagen-logo{
+    width: 11.6%;
+
+    display: flex;
+    flex-direction: row;
+  }
+    header .imagen-logo h2{
+      margin: 30px 20px 0px 0px;
+      color: #fff;
+      font-size: 22px;
+    }
+
+  header img{
+    margin: 20px 0px 0px 20px;
+  }
+ header{
+   background: rgba(33, 34, 44, 1);
+   display: flex;
+   flex-direction: row;
+ }
+ header .encabezado h2{
+   margin: 30px 20px 0px 20px;
+   color: #fff;
+   font-size: 22px;
+ }
+ .main {
+   display: flex;
+   flex-direction: row;
+   height: 1204px;
+ }
+
+.main .menu-box .menu a{
+  flex-direction: column;
+  margin: 0px 0px 0px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.main .menu-box .menu a:hover{
+  flex-direction: column;
+  margin: 0px 0px 0px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+    text-align: center;
+}
+
+.main .menu-box .menu  img{
+ width: 24px;
+ height: 24px;
+}
+.main .menu-box .menu div{
+  display: flex;
+  flex-direction: row;
+  margin: 20px
+}
+.main .menu-box{
+  background: rgba(33, 34, 44, 1);
+  padding-top: 20px;
+  height: 100%;
+  width: 13%;
+
+}
+.main .main-boxs{
+  background: rgba(28, 28, 40, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.main .main-boxs .boxs-derecha{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%
+}
+.main .main-boxs .box-abajo{
+    margin: 60px 30px 0px 30px;
+    height: 28%;
+    width: 100%;
+}
+.main .main-boxs .box-abajo .box-refacciones{
+  background: rgba(33, 34, 44, 1);
+    width: 84.5%;
+    border-radius: 15px;
+    height: 100%;
+}
+.main .main-boxs .boxs-top{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+.main .main-boxs .boxs-top .box1{
+  background: rgba(33, 34, 44, 1);
+  margin: 30px;
+  width: 40%;
+  border-radius: 15px;
+  height: 100%;
+}
+.main .main-boxs .boxs-top .box1 .encabezado-box{
+  display: flex;
+  flex-direction: row;
+}
+.main .main-boxs .boxs-top .box1 .encabezado-box a{
+    margin-left: 60%;
+    color: rgba(54, 100, 198, 1);
+    font-size: 12px;
+    margin-top: 5%;
+    text-decoration: none;
+
+}
+.main .main-boxs .boxs-top .box1 .encabezado-box h3{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda{
+  height: 100%;
+  width: 20%;
+}
+.main .main-boxs .boxs-izquierda .box-calendario{
+  background: rgba(33, 34, 44, 1);
+  margin: 30px;
+  margin-left: -30%;
+  height: 30%;
+  border-radius: 15px;
+}
+.main .main-boxs .box-abajo .box-refacciones h3{
+  color: #fff;
+  font-size: 18px;
+  padding-top: 3%;
+  margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda .box-calendario h3{
+  color: #fff;
+  font-size: 18px;
+  margin-top: 5%;
+  padding-top: 6%;
+  margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda .box-apuntes h3{
+  color: #fff;
+  font-size: 18px;
+  margin-top: 5%;
+  padding-top: 6%;
+  margin-left: 5%;
+}
+.main .main-boxs .boxs-izquierda .box-apuntes{
+  background: rgba(33, 34, 44, 1);
+  margin: 30px;
+  margin-left: -30%;
+  height: 48%;
+  border-radius: 15px;
+}

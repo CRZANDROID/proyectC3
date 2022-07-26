@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AutoPart</title>
+    	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      	<link rel="stylesheet" href="styles-clientes.css">
+        	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+        <script src="ticket.js"></script>
+        </head>
+  <body>
+  	<header>
+      <div class="imagen-logo">
+        <img src="imagenes/logo.png" alt=""><h2>AutoPart</h2>
+      </div>
+      <div class="encabezado">
+     
+
+      </div>
+  	</header>
+  	<section class="main">
+
+
+  		<section class="main-boxs">
+        <div class="boxs-derecha">
+          <div class="boxs-top">
+            <div class="box1">
+              <div class="encabezado-box">
+              <h3>Progreso de Autos</h3><div class="opciones">
+                <a href="Clientes.html"><h4>Regresar</h4></a>
+                <a href="ticket.html"><h4>refresh</h4></a>
+               </div>
+              </div>
+              <table id="ticket">
+              <tr>
+                <th class="nombre">Id cliente</th>
+                <th>Cliente</th>
+                <th>Id Auto</th>
+                <th>Estado</th>
+                <th>Placas</th>
+                    </tr>
+                </table>
+            </div>
+
+          </div>
+          <div class="box-abajo">
+            
+          </div>
+        </div>
+        <div class="boxs-izquierda">
+          <div class="box-calendario">
+            <h3>Buscar</h3>
+            <div class="calendario"  id="calendario">
+              <form class="formulario" action="">
+                <input type="text" id="cliente" placeholder="  Buscar ID Cliente">
+                <input type="button" onclick="verTicket()" value="Buscar">
+              </form>
+            </div>
+          </div>
+        </div>
+
+  		</section>
+      </section>
+  </body>
+</html>

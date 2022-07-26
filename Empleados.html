@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AutoPart</title>
+    	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      	<link rel="stylesheet" href="styles-empleados.css">
+        	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+          <script type= "text/javascript" src= "probarConexion.js"></script>
+          <script src="index.js"></script>
+  </head>
+  <body>
+  	<header>
+      <div class="imagen-logo">
+        <img src="imagenes/logo.png" alt=""><h2>AutoPart</h2>
+      </div>
+      <div class="encabezado">
+        <h2>Autos</h2>
+      </div>
+  	</header>
+  	<section class="main">
+      <section class="menu-box">
+        <nav class="menu">
+
+          
+
+          <div class="1">
+            <img src="imagenes/menu/2.png" alt=""><a href="Clientes.html"><p>Clientes</p></a>
+          </div>
+
+          <div class="1">
+            <img src="imagenes/menu/3.png" alt=""><a href="Refacciones.html"><p>Refacciones</p></a>
+          </div>
+          <div class="1">
+            <img src="imagenes/menu/4.png" alt=""><a href="Empleados.html"><p>Empleados</p></a>
+          </div>
+          <div class="1">
+            <img src="imagenes/menu/5.png" alt=""><a href="ventas-mes.html"><p>Ventas</p></a>
+          </div>
+        </nav>
+      </section>
+
+
+  		<section class="main-boxs">
+        <div class="boxs-derecha">
+          <div class="boxs-top">
+            <div class="box1">
+              <div class="encabezado-box">
+                  <h3>Empleados</h3><div class="opciones">
+                    <a href="agregar.html"><h4>Agregar</h4></a><a href="Modificar.html"><h4>Modificar</h4></a><a href="eliminar.html"><h4>Eliminar</h4></a>
+                  </div>
+              </div>
+              <div class="consultar">
+                  <input type="button" onclick="consultarDatos()" value="Consultar">
+              </div>
+        <table class="table" id="empleado">
+            <tr>
+        <th class="nombre">ID</th>
+        <th>Nombre</th>
+        <th>Administrador a cargo</th>
+            </tr>
+        </table>
+            </div>
+            <div class="box1">
+              <div class="encabezado-box">
+              <h3>Administrador</h3><div class="opciones">
+                <a href="agregar_admi.html"><h4>Agregar</h4></a><a href="modificar_admi.html"><h4>Modificar</h4></a><a href="eliminar_admi.html"><h4>Eliminar</h4></a>
+
+              </div>
+              </div>
+              <div class="consultar">
+                  <input type="button" onclick="consultarAdmi()" value="Consultar administradores">
+              </div>
+              <table class="table" id="admi">
+                  <tr>
+              <th class="nombre">ID</th>
+              <th>Nombre</th>
+                  </tr>
+              </table>
+            </div>
+
+          </div>
+        </div>
+
+  		</section>
+      </section>
+  </body>
+</html>
